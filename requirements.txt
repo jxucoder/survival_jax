@@ -1,0 +1,7 @@
+numpy
+scipy
+jax
+jaxlib
+jupyterlab==3.4.0
+urllib3==1.26.15
+scikit-survival

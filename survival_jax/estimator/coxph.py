@@ -2,12 +2,10 @@ import numpy as np
 from collections import Counter
 
 import jax.numpy as jnp
-import jax.scipy as jsp
-import jax
 from jax import grad, hessian
 from scipy.optimize import minimize
-from survival_jax.estimator.utils import find_biggest_element_less_than_x
-from survival_jax.loss.cox_partial_likelihood import negative_log_cox_partial_likelihood
+from survival_jax.survival_jax.estimator.utils import find_biggest_element_less_than_x
+from survival_jax.survival_jax.loss.cox_partial_likelihood import negative_log_cox_partial_likelihood
 from functools import partial
 
 
