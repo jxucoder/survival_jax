@@ -1,9 +1,10 @@
-from setuptools import setup
+from setuptools import find_packages, setup
+
 
 setup(
     name='survival_jax',
     version='0.0.1',
-    packages=['survival_jax', 'survival_jax.loss', 'survival_jax.estimator'],
+    packages=find_packages(),
     url='',
     license='MIT',
     author='jxucoder',
